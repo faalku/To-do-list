@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+.App{
+  background-attachment: fixed;
+  background-color: #aeb4c0;
+  padding: 10px;
+  margin: 10px;
+  border: solid rgb(150, 138, 161) ;
+  border-radius: 8px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(18px + 2vmin);
+  color: rgb(34, 29, 29);
+}
+.App-edit {
+  background-color: rgb(246, 249, 250);
+  border: none;
+  border-radius: 3px;
+  margin: 10px;
+  color: rgb(124, 124, 187);
+  
+}
+.App-del{
+  background-color: rgb(246, 249, 250);
+  border: none;
+  border-radius: 3px;
+  margin: 10px ;
+  color: red;
+}
+.App-buttonadd{
+  background-color: rgb(114, 105, 122);
+  background-image: url("top-yes-icon-icon-with-png-and-vector-format-for-free-unlimited-362202.png");
+  border: none;
+  border-radius: 3px;
+  margin: 10px;
+  color: rgb(97, 97, 209);
+  padding: 3px 8px; 
 }
 
-.App-link {
-  color: #61dafb;
+.App-donrtasks{
+  text-decoration: line-through;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-noDecoration{
+  text-decoration: none;
+
 }
